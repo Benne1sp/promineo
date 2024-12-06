@@ -8,6 +8,10 @@
 		},
 		{
 			"path": "Notes"
+		},
+		{
+			"name": "promineo-1",
+			"path": "promineo-1"
 		}
 	],
 	"settings": {
