@@ -26,6 +26,124 @@ A Bootstrap navbar, table, and form.
 Bootstrap grid used throughout to format elements
 Elements should stack vertically when the window is small -->
 
-   <script> </script>
+<!-- navbar -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">WoW Classes</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="classes.html">Specs</a>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+         
+      </div>
+    </div>
+
+</nav>
+
+<!-- image of main WoW logo -->
+<div>
+    <img class="img-fluid" src="images/Warcraft-1280x720_1_1800x500.jpg" alt="World of Warcraft Logo">
+</div>
+
+<!-- main description of the page to explain what this project
+is going to tell you -->
+<h1 class="text-center p-1">Unsure of what class to play in WoW?</h1>
+
+<h2 class="text-center p-1">Well I am here to help!</h2>
+
+<h3 class="text-center p-1">There are 3 roles in the game:</h3>
+
+
+<div class="container text-center">
+    <div class="row row-cols-1 row-cols-lg-3 g-10 m-3 pt-5">
+      <div class="col">
+        <div class="card h-100 shadow lg">
+            <img src="images/tank.jpg" class="card-img-top" alt="Tank Icon">
+            <div class="card-body">
+              <h5 class="card-title">Tank</h5>
+              <p class="card-text">In World of Warcraft, a tank is a character role responsible for absorbing damage and 
+                protecting other members of a group or raid. Tanks draw the attention of enemies using abilities that 
+                generate threat. Tanks have high health pools, strong defenses, and abilities to control enemy movement 
+                or reduce the damage taken, allowing the rest of the team to focus on dealing damage. Their primary job 
+                is to survive while managing threat and positioning enemies for optimal attacks from the team.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow lg">
+            <img src="images/healer.jpg" class="card-img-top" alt="Healer Icon">
+            <div class="card-body">
+              <h5 class="card-title">Healer</h5>
+              <p class="card-text">In World of Warcraft, a healer is a character role focused on restoring health to 
+                allies during combat. Healers use spells and abilities to heal damage taken by group members, ensuring 
+                they stay alive throughout encounters. Healers need to manage their resources, prioritize targets, and 
+                react quickly to shifting situations, balancing healing output with positioning to avoid taking damage 
+                themselves. Their primary goal is to keep the team alive and ensure they can continue to fight.</p>
+            </div>
+          </div>
+      </div>
+    <div class="col">
+        <div class="card h-100 shadow lg">
+            <img src="images/meleedps.png" class="card-img-top" alt="DPS Icon">
+            <div class="card-body">
+              <h5 class="card-title">DPS</h5>
+              <p class="card-text">In World of Warcraft, a DPS, broken into melee and ranged, is a character role focused on dealing damage to enemies. 
+                DPS characters aim to output as much damage as possible to defeat enemies quickly. They have abilities 
+                designed to maximize their damage, while also managing resources. DPS players typically focus on avoiding 
+                damage and positioning themselves optimally to contribute to the success of the group or raid. Their primary 
+                role is to eliminate threats as efficiently as possible.</p>
+            </div>
+          </div>
+    </div>
+  </div>
+
+
+  <p>
+    You will find on the "Spec" page of this project a list of each different
+    Class in the game, along with their 3 or 4 different specs they can play,
+    and what role within the game that spec can fill.
+  </p>
+<br>
+
+<h2>Contact if you have any questions!</h2>
+
+  <form class="row g-3">
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Name</label>
+        <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Questions/Concerns</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-12 pt-2">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
